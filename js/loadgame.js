@@ -226,6 +226,14 @@ if (game === 'monkeymart') {
     document.getElementById("a").innerHTML = "Play As  monkey and make a successful business";
     document.getElementById("b").innerHTML = "Controls: <br> Move: WASD";
 }
+
+if (game === 'moto1') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/motox3m/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Do a flip";
+    document.getElementById("b").innerHTML = "Controls: <br> Move: A/D";
+}
  
  
  
