@@ -242,6 +242,14 @@ if (game === 'moto2') {
     document.getElementById("a").innerHTML = "Do a flip";
     document.getElementById("b").innerHTML = "Controls: <br> Move: A/D";
 }
+
+if (game === 'freezeria') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/papas freezeria/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Make different drinks and earn money";
+    document.getElementById("b").innerHTML = "Controls: Just click";
+}
  
  
  
