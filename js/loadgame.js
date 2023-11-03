@@ -234,6 +234,14 @@ if (game === 'moto1') {
     document.getElementById("a").innerHTML = "Do a flip";
     document.getElementById("b").innerHTML = "Controls: <br> Move: A/D";
 }
+
+if (game === 'moto2') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/moto-x3m-2/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Do a flip";
+    document.getElementById("b").innerHTML = "Controls: <br> Move: A/D";
+}
  
  
  
