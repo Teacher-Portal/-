@@ -266,6 +266,15 @@ if (game === 'scooperia') {
     document.getElementById("a").innerHTML = "Scoop icecream and add topping to serve to customers";
     document.getElementById("b").innerHTML = "Controls: Just click";
 }
+
+if (game === 'sushiria') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/papas sushiria/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "I cant trhink of a description";
+    document.getElementById("b").innerHTML = "Controls: Just click";
+}
+ 
  
  
  
