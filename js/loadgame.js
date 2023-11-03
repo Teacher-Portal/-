@@ -250,6 +250,14 @@ if (game === 'freezeria') {
     document.getElementById("a").innerHTML = "Make different drinks and earn money";
     document.getElementById("b").innerHTML = "Controls: Just click";
 }
+
+if (game === 'pizzeria') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/papas pizzeria/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Make pizza to earn a living not the idea job";
+    document.getElementById("b").innerHTML = "Controls: Just click";
+}
  
  
  
