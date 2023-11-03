@@ -274,6 +274,15 @@ if (game === 'sushiria') {
     document.getElementById("a").innerHTML = "I cant trhink of a description";
     document.getElementById("b").innerHTML = "Controls: Just click";
 }
+
+if (game === 'donuteria') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/papas donuteria/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "I only played this like once";
+    document.getElementById("b").innerHTML = "Controls: Just click";
+}
+ 
  
  
  
