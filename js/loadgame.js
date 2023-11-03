@@ -258,6 +258,14 @@ if (game === 'pizzeria') {
     document.getElementById("a").innerHTML = "Make pizza to earn a living not the idea job";
     document.getElementById("b").innerHTML = "Controls: Just click";
 }
+
+if (game === 'scooperia') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/papas scooperia/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Scoop icecream and add topping to serve to customers";
+    document.getElementById("b").innerHTML = "Controls: Just click";
+}
  
  
  
