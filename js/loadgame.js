@@ -210,6 +210,23 @@ if (game === 'blockpost') {
     document.getElementById("a").innerHTML = "A game kinda like pixel gun 3d";
     document.getElementById("b").innerHTML = "Controls: <br> Move: Wasd <br>Shoot/Aim: M1/M2";
 }
+
+if (game === 'retrobowl') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/retrobowl/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "A retro football game";
+    document.getElementById("b").innerHTML = "Controls: <br> Throw: M1 <br> Dodge: W/S";
+}
+
+if (game === 'monkeymart') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/monkeymart/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Play As  monkey and make a successful business";
+    document.getElementById("b").innerHTML = "Controls: <br> Move: WASD";
+}
+ 
  
  
  
