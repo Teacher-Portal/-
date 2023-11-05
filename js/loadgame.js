@@ -14,7 +14,7 @@ console.log(gametag)
 if (game === 'jeffbezosiszaddy') {
 const iframe = document.getElementById("myIframe")
 iframe.src = "games/youarejeffbezos/index.html"
-document.getElementById("a").innerHTML = "Would this be lucky to wake up as jeff bezos of be unluckey because of how much you need to manage";
+document.getElementById("a").innerHTML = "Would this be lucky to wake up as jeff bezos or be unluckey because of how much work you have to do";
 document.getElementById("b").innerHTML = "Controls: <br> Just click lil bro";
 console.log(gametag)
 }

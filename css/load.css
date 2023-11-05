@@ -238,19 +238,22 @@ body {
  }
 
  .a {
-    font-size: 30px;
+    font-size: 150%;
+    overflow: scroll;
+    overflow-x: hidden;
     border: solid 3px var(--accent-color);
     font-family: Lemonmilk;
     color: var(--accent-color);
     border-radius: 10px;
     height: 50%;
-    width: 110%;
+    width: 100%;
  }
 
  .b {
-    font-size: 30px;
+    font-size: 200%;
     font-family: Lemonmilk;
-    
+    overflow: scroll;
+    overflow-x: hidden;
     color: var(--accent-color);
     border-radius: 10px;
     height: 50%;
@@ -290,6 +293,8 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background: var(--accent-color); 
   }
+
+ 
 
  
 
