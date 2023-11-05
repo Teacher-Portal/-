@@ -282,6 +282,38 @@ if (game === 'donuteria') {
     document.getElementById("a").innerHTML = "I only played this like once";
     document.getElementById("b").innerHTML = "Controls: Just click";
 }
+
+if (game === 'duck1') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/ducklife1/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Raise your own duck and race them";
+    document.getElementById("b").innerHTML = "Controls: Arrow Keys";
+}
+
+if (game === 'duck2') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/ducklife2/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Raise your own duck and race them";
+    document.getElementById("b").innerHTML = "Controls: Arrow Keys";
+}
+
+if (game === 'duck3') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/ducklife3/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Raise your own duck and race them";
+    document.getElementById("b").innerHTML = "Controls: Arrow Keys";
+}
+
+if (game === 'duck4') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/ducklife4/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Raise your own duck and race them";
+    document.getElementById("b").innerHTML = "Controls: Arrow Keys";
+}
  
  
  
