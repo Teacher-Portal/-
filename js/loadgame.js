@@ -314,6 +314,15 @@ if (game === 'duck4') {
     document.getElementById("a").innerHTML = "Raise your own duck and race them";
     document.getElementById("b").innerHTML = "Controls: Arrow Keys";
 }
+
+if (game === 'justoneboss') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/justoneboss/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Its just one boss... Right?";
+    document.getElementById("b").innerHTML = "Controls: Arrow Keys";
+}
+ 
  
  
  
