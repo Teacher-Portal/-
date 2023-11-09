@@ -322,6 +322,14 @@ if (game === 'justoneboss') {
     document.getElementById("a").innerHTML = "Its just one boss... Right?";
     document.getElementById("b").innerHTML = "Controls: Arrow Keys";
 }
+
+if (game === 'bobtherobber2') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/bobtherobber2/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Rob houses and become the richest in your neighborhood";
+    document.getElementById("b").innerHTML = "Controls: <br> Move: Arrow Keys <br> Powers: Z, X, C";
+}
  
  
  
