@@ -27,6 +27,14 @@
     --accent-color: rgb(255, 232, 27);
 }
 
+.pink-accent {
+    --accent-color: rgb(255, 34, 244);
+}
+
+.green-accent {
+    --accent-color: rgb(41, 255, 13);
+}
+
 .lighttheme {
     --primary-color: rgb(207, 205, 205);
     --secondary-color: rgb(216, 216, 216);

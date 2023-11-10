@@ -346,6 +346,46 @@ if (game === 'bloxorz') {
     document.getElementById("a").innerHTML = "Its hard to make descriptions for these games";
     document.getElementById("b").innerHTML = "Controls: <br> Move: Arrow Keys <br> Weapons: Numbers";
 }
+
+if (game === 'fnaf3') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/fnaf3/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Play as micheal afton as you try to find out the truth about your dad";
+    document.getElementById("b").innerHTML = "Controls: use your mouse";
+}
+
+if (game === 'fnaf4') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/fnaf4/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Play as evan afton hiding from his fear of his dads inventions";
+    document.getElementById("b").innerHTML = "Controls: Use your mouse";
+}
+
+if (game === 'fnaf5') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/fnaf5/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Find out the secrets of micheal afton";
+    document.getElementById("b").innerHTML = "Controls: Use your mouse";
+}
+
+if (game === 'slope') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/slope/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Be a ball and avoid death";
+    document.getElementById("b").innerHTML = "Controls: <br> Move: q/e, arrow keys";
+}
+
+if (game === 'slope2') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/slope2/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Be a ball and avoid death";
+    document.getElementById("b").innerHTML = "Controls: <br> Move: q/e, arrow keys";
+}
  
  
  

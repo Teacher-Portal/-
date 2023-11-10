@@ -97,6 +97,54 @@ function yellowaccent() {
 
 }
 
+function pinkaccent() {
+    if (document.body.classList.item =! null) {
+        var current = document.body.getAttribute("class")
+        console.log(current)
+        if (localStorage.getItem('themee') === 'lighttheme') {
+            document.body.removeAttribute('class');
+            document.body.classList.add("pink-accent")
+            document.body.classList.add("lighttheme")
+            localStorage.setItem("accent", "pink-accent")
+        } else {
+            document.body.removeAttribute('class');
+            document.body.classList.add("darktheme")
+            document.body.classList.add("pink-accent")
+            localStorage.setItem("accent", "pink-accent")
+        }
+    } else {
+        document.body.removeAttribute('class');
+        document.body.classList.add("pink-accent")
+        document.body.classList.add("darktheme")
+        localStorage.setItem("accent", "pink-accent")
+    }
+
+}
+
+function greenaccent() {
+    if (document.body.classList.item =! null) {
+        var current = document.body.getAttribute("class")
+        console.log(current)
+        if (localStorage.getItem('themee') === 'lighttheme') {
+            document.body.removeAttribute('class');
+            document.body.classList.add("green-accent")
+            document.body.classList.add("lighttheme")
+            localStorage.setItem("accent", "green-accent")
+        } else {
+            document.body.removeAttribute('class');
+            document.body.classList.add("darktheme")
+            document.body.classList.add("green-accent")
+            localStorage.setItem("accent", "green-accent")
+        }
+    } else {
+        document.body.removeAttribute('class');
+        document.body.classList.add("green-accent")
+        document.body.classList.add("darktheme")
+        localStorage.setItem("accent", "green-accent")
+    }
+
+}
+
 function light() {
     if (localStorage.getItem('accent')) {
         localStorage.setItem("themee", "lighttheme")
