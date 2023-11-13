@@ -323,6 +323,7 @@ body {
     padding: 0.7em 0.5em;
     margin: 0.3em 0;
     border-radius: 0.5em;
+    z-index: 2;
     cursor: pointer;
 
 }
