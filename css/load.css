@@ -61,7 +61,7 @@
 
 body {
     background-color: var(--primary-color);
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .biggercontainer {
