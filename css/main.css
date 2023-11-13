@@ -255,6 +255,7 @@ body {
     min-width: 15em;
     position: relative;
     margin: 2em;
+    z-index: 3;
 }
 
 .dropdown * {
