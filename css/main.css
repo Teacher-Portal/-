@@ -175,7 +175,7 @@ body {
     align-content: space-evenly;
     align-items: center;
     gap: 3rem;
-    z-index: 3;
+    z-index: 1;
 }
 
 .box {
@@ -457,3 +457,11 @@ footer {
     width: 100%;
 
   }
+
+.dropdown1 {
+    z-index: 3;
+}
+
+.dropdown2 {
+    z-index: 2;
+}
