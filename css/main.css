@@ -72,7 +72,7 @@ body {
 
 .navcontainer {
     background-color: var(--secondary-color);
-    z-index: 2;
+    z-index: 3;
 }
 
 .navcontainer {
@@ -189,7 +189,7 @@ body {
     border-radius: 4px;
     transition: all 500ms;
     overflow:hidden;
-
+    z-index: 1;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -255,6 +255,7 @@ body {
     min-width: 15em;
     position: relative;
     margin: 2em;
+    z-index: 3;
 }
 
 .dropdown * {
@@ -314,7 +315,7 @@ body {
     opacity: 0;
     display: none;
     transition: 0.2s;
-    z-index: 1;
+    z-index: 3;
 }
 
 .menu li {
@@ -323,6 +324,7 @@ body {
     padding: 0.7em 0.5em;
     margin: 0.3em 0;
     border-radius: 0.5em;
+    z-index: 3;
     cursor: pointer;
 
 }
