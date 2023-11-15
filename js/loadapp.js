@@ -57,6 +57,13 @@ if (app === 'mariomovie') {
     document.getElementById("b").innerHTML = "Change the quality in settings";
 }
 
+if (app === 'emulator') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "appss/emulator/index.html"
+    document.getElementById("a").innerHTML = "Thanks EmualtorJS";
+    document.getElementById("b").innerHTML = "Change the quality in settings";
+}
+
 
 
  
