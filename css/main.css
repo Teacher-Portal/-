@@ -72,7 +72,7 @@ body {
 
 .navcontainer {
     background-color: var(--secondary-color);
-    z-index: 3;
+    z-index: 4;
 }
 
 .navcontainer {

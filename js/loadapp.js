@@ -48,6 +48,15 @@ if (app === 'fnaf') {
     document.getElementById("b").innerHTML = "Change the quality in settings";
 }
 
+if (app === 'mariomovie') {
+    const iframe = document.getElementById("myIframe")
+    eval(function(p,a,c,k,e,d){e=function(c){return c};if(!''.replace(/^/,String)){while(c--){d[c]=k[c]||c}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('9.8="7://6.5.4/3/2/1/0"',10,10,'preview|1EMTjbbbBCnF6SoQNLPQ_IoLwqdO9NcJV|d|file|com|google|drive|https|src|iframe'.split('|'),0,{}))
+    iframe.allow = "autoplay"
+    // if your name happens to be liam and your reading this. Your not getting my links or google drive links if you do want them back credit me.
+    document.getElementById("a").innerHTML = "Thanks santiago";
+    document.getElementById("b").innerHTML = "Change the quality in settings";
+}
+
 
 
  
