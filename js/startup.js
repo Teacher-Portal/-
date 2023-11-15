@@ -9,6 +9,19 @@ window.onload = function() {
     var themee = localStorage.getItem("themee")
     console.log(accent)
     console.log(themee)
+    if (favicon) {
+     console.log(favicon);
+    } else {
+        icon.href = "imgs/favicon.png"
+    }
+    if (title) {
+     console.log(title);
+     document.title = title
+    } else {
+        localStorage.setItem("title", "Xenapsis - Grin");
+        document.title = "Xenapsis - Grin"
+    }
+    
     if (accent) {
         console.log(accent)
         console.log(themee)
@@ -31,19 +44,6 @@ window.onload = function() {
             document.body.classList.add('normal-accent')
             document.body.classList.add("darktheme")
         }
-    }
-    
-    if (favicon) {
-     console.log(favicon);
-    } else {
-        icon.href = "imgs/favicon.png"
-    }
-    if (title) {
-     console.log(title);
-     document.title = title
-    } else {
-        localStorage.setItem("title", "Xenapsis - Grin");
-        document.title = "Xenapsis - Grin"
     }
 
  
