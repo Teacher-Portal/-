@@ -386,6 +386,14 @@ if (game === 'slope2') {
     document.getElementById("a").innerHTML = "Be a ball and avoid death";
     document.getElementById("b").innerHTML = "Controls: <br> Move: q/e, arrow keys";
 }
+
+if (game === 'adofai') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/adanceoffireandice/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Be a ball and avoid death";
+    document.getElementById("b").innerHTML = "Controls: <br> Move: q/e, arrow keys";
+}
  
  
  
