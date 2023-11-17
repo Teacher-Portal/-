@@ -391,8 +391,40 @@ if (game === 'adofai') {
     const iframe = document.getElementById("myIframe")
     iframe.src = "games/adanceoffireandice/index.html"
     iframe.style ="background-color: white;"
-    document.getElementById("a").innerHTML = "Be a ball and avoid death";
-    document.getElementById("b").innerHTML = "Controls: <br> Move: q/e, arrow keys";
+    document.getElementById("a").innerHTML = "Click on the beat of the song while you control 2 balls";
+    document.getElementById("b").innerHTML = "Controls: <br> Almost all keys";
+}
+
+if (game === 'dreader') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/dreader/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "What is in that computer?";
+    document.getElementById("b").innerHTML = "Controls: <br> Mouse";
+}
+
+if (game === 'ironsnout') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/ironsnout/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Fight off the annoying wolfs as they try to eat you!";
+    document.getElementById("b").innerHTML = "Controls: <br> Attack: Arrow Keys";
+}
+
+if (game === 'narutovsbleach') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/narutovsbleach/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Find out whos better in Naruto Vs Bleach";
+    document.getElementById("b").innerHTML = "Controls: <br> Move: A/D <br> Block: S <br> Long ATK: U <br> Short ATK/Select: J <br> Ultimate: I <br> Second Ability: O <br> Jump/Back: K <br>Dash: L";
+}
+
+if (game === 'townscraper') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/townscraper/game/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Build your own town";
+    document.getElementById("b").innerHTML = "Controls: <br> Click";
 }
  
  
