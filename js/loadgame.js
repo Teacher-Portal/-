@@ -426,6 +426,14 @@ if (game === 'townscraper') {
     document.getElementById("a").innerHTML = "Build your own town";
     document.getElementById("b").innerHTML = "Controls: <br> Click";
 }
+
+if (game === 'cursedball') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/cursedball/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Build your own town";
+    document.getElementById("b").innerHTML = "Controls: <br> Click";
+}
  
  
  
