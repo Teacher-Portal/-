@@ -29,7 +29,7 @@ document.getElementById("a").innerHTML = "What Games should I add to plasmV2";
 
 if (game === 'drivemad') {
     const iframe = document.getElementById("myIframe")
-    iframe.src = "games/drive-mad/index.html"
+    iframe.src = "games/drivemad/index.html"
     iframe.style ="background-color: white;"
     document.getElementById("a").innerHTML = "Become a monster truck";
     document.getElementById("b").innerHTML = "Controls: <br>A: Back<br> B: Forward"
