@@ -20,7 +20,7 @@ if (app === 'rammer1') {
 
 if (app === 'rammer2') {
     const iframe = document.getElementById("myIframe")
-    iframe.src = "https://froggy-are-cool.html.k4dm.net"
+    iframe.src = "https://www.school-is-fun.publicvm.com/"
     document.getElementById("a").innerHTML = "Rammerhead Server 2";
     document.getElementById("b").innerHTML = "<style> display: none; </style>";
 }
