@@ -10,7 +10,7 @@ var footer = `
             <ul style="display: flex; gap: 5rem; list-style: none;">
                 <li style="color: var(--offset-color);">Creator/Founder: Grin</li>
                 <li style="color: var(--offset-color);">Email Us: Xenapsis@gmail.com</li>
-                <li style="color: var(--offset-color);">Version 2.4.8</li>
+                <li style="color: var(--offset-color);">Version 2.5.8</li>
             </ul>
         </footer>`;
 
