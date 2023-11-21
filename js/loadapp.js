@@ -57,10 +57,17 @@ if (app === 'mariomovie') {
     document.getElementById("b").innerHTML = "Change the quality in settings";
 }
 
-if (app === 'emulator') {
+if (app === 'emulatorjs') {
     const iframe = document.getElementById("myIframe")
     iframe.src = "appss/emulator/index.html"
     document.getElementById("a").innerHTML = "Thanks EmualtorJS";
+    document.getElementById("b").innerHTML = "Change the quality in settings";
+}
+
+if (app === 'swfemulator') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "appss/swfemulator/index.html"
+    document.getElementById("a").innerHTML = "Thanks Ruffle";
     document.getElementById("b").innerHTML = "Change the quality in settings";
 }
 

@@ -1,8 +1,12 @@
 
 var footer = `
-<br>
-        <br>
-        <footer style="background-color: var(--lighter-color); display: flex; width: 100%; float: left;">
+        <footer style="background-color: var(--lighter-color); width: 100%; float: left; padding: 0 0 0 0;">
+            <div class="randombox">
+                <ul style=" gap: 5rem; list-style: none; position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <li id="randommessage" style="color: var(--offset-color);">Test</li>
+                </ul>
+            </div>
+            <hr>
             <ul style="display: flex; gap: 5rem; list-style: none;">
                 <li style="color: var(--offset-color);">Creator/Founder: Grin</li>
                 <li style="color: var(--offset-color);">Email Us: Xenapsis@gmail.com</li>

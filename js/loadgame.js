@@ -434,6 +434,14 @@ if (game === 'cursedball') {
     document.getElementById("a").innerHTML = "Build your own town";
     document.getElementById("b").innerHTML = "Controls: <br> Click";
 }
+
+if (game === 'awesometanks') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/awesometanks/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Make a strong tank to defeat enimies";
+    document.getElementById("b").innerHTML = "Controls: <br> Move: Arrow <br> Shoot: M1";
+}
  
  
  

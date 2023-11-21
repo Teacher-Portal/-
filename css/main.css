@@ -467,3 +467,19 @@ footer {
 .dropdown2 {
     z-index: 2;
 }
+
+.randombox {
+    text-align: center;
+    background-color: var(--lighter-color);
+    margin-top: auto;
+    padding: 0 50px 0 50px;
+    color: white;
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: 1px solid var(--offset-color);
+}
