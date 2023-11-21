@@ -13,7 +13,7 @@ if (app === 'appsuggestion') {
 
 if (app === 'rammer1') {
     const iframe = document.getElementById("myIframe")
-    iframe.src = "https://rammerhead.urbigmumz.vilathea.ro/"
+    iframe.src = "https://didyoujustenter.space/"
     document.getElementById("a").innerHTML = "Rammerhead Server 1";
     document.getElementById("b").innerHTML = "";
 }
