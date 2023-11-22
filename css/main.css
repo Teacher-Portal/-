@@ -107,7 +107,7 @@ body {
 .navcontainer h1{
     position: relative;
     top: 0px;
-    font-family: Lemonmilk;
+    font-family: montserrat, sans-serif;
     color: var(--accent-color);
 
     
@@ -183,7 +183,7 @@ body {
     background: var(--box-color);
     font-size: 3rem;
     color: #fff;
-    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    box-shadow: rgba(3, 8, 20, 0.1) 4px 0.5rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
     height: 200px;
     width: 200px;
     border-radius: 4px;
@@ -245,7 +245,7 @@ body {
  }
 
  .search::placeholder {
-    font-family: Lemonmilk;
+    font-family: montserrat, sans-serif;
     color: var(--accent-color);
     font-size: 15px;
     text-align: center;
@@ -455,6 +455,7 @@ footer {
     background-color: DarkSalmon;
     margin-top: auto;
     padding: 0 50px 0 50px;
+    font-family: montserrat, sans-serif;
     color: white;
     width: 100%;
 
@@ -483,3 +484,10 @@ hr {
     margin: 0;
     border: 1px solid var(--offset-color);
 }
+
+input {
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    color: var(--accent-color);
+}
+

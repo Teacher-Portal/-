@@ -442,6 +442,14 @@ if (game === 'awesometanks') {
     document.getElementById("a").innerHTML = "Make a strong tank to defeat enimies";
     document.getElementById("b").innerHTML = "Controls: <br> Move: Arrow <br> Shoot: M1";
 }
+
+if (game === 'chefsshift') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/thechefsshift/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Type out words to cook for customers.";
+    document.getElementById("b").innerHTML = "Controls: <br> Too many keys lol";
+}
  
  
  
