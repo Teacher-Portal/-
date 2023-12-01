@@ -450,6 +450,15 @@ if (game === 'chefsshift') {
     document.getElementById("a").innerHTML = "Type out words to cook for customers.";
     document.getElementById("b").innerHTML = "Controls: <br> Too many keys lol";
 }
+
+if (game === 'links') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/thechefsshift/index.html"
+    iframe.style ="https://docs.google.com/document/d/1Sszv7iYclfzTVSDDOqCTnQFHZAaSxGEM908yG-IHMs4/edit?usp=sharing"
+    document.getElementById("a").innerHTML = "All of our links (some may be blocked if so try next link)";
+    document.getElementById("b").innerHTML = "Finn was here!!!";
+}
+ 
  
  
  
