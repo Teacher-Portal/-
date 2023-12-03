@@ -21,7 +21,7 @@ console.log(gametag)
 
 if (game === 'gamesuggestion') {
 const iframe = document.getElementById("myIframe")
-iframe.src = "https://docs.google.com/forms/d/e/1FAIpQLSchrbawkZ2bWN8tb1lyYlC3Q31FgICqMzyFRiP7JNwsoEm9YA/viewform?embedded=true"
+iframe.src = "https://docs.google.com/forms/d/e/1FAIpQLSeCWdZW-zbTkst0gol1puiCVAAna1X07Tx48MNZg_qtntDJ0w/viewform?usp=sf_link"
 iframe.style ="background-color: white;"
 document.getElementById("a").innerHTML = "What Games should I add to plasmV2";
 }
@@ -453,10 +453,82 @@ if (game === 'chefsshift') {
 
 if (game === 'links') {
     const iframe = document.getElementById("myIframe")
-    iframe.src = "games/thechefsshift/index.html"
-    iframe.style ="https://docs.google.com/document/d/1Sszv7iYclfzTVSDDOqCTnQFHZAaSxGEM908yG-IHMs4/edit?usp=sharing"
+    iframe.src = "https://docs.google.com/document/d/1Sszv7iYclfzTVSDDOqCTnQFHZAaSxGEM908yG-IHMs4/edit?usp=sharing"
+    iframe.style ="background-color: white;"
     document.getElementById("a").innerHTML = "All of our links (some may be blocked if so try next link)";
     document.getElementById("b").innerHTML = "Finn was here!!!";
+}
+
+if (game === '10minutestilldawn') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/10-minutes-till-dawn/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "This game looks fun";
+    document.getElementById("b").innerHTML = "Controls: <br> Too many keys lol";
+}
+
+if (game === '1v1lol') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/1v1lol/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Online games would break the site also stop asking for roblox";
+    document.getElementById("b").innerHTML = "Controls: <br> Too many keys lol";
+}
+
+if (game === 'kingdomrush') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/kingdomrush/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Defend enimies looking to take over your land!";
+    document.getElementById("b").innerHTML = "Use mouse to defend";
+}
+
+if (game === 'vex3') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/vex3/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Play as a stickman and stuff";
+    document.getElementById("b").innerHTML = "Controls <br> Move: WASD";
+}
+
+if (game === 'vex4') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/vex4/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Play as a stickman and stuff";
+    document.getElementById("b").innerHTML = "Controls <br> Move: WASD";
+}
+
+if (game === 'vex5') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/vex5/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Play as a stickman and stuff";
+    document.getElementById("b").innerHTML = "Controls <br> Move: WASD";
+}
+
+if (game === 'vex6') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/vex6/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Play as a stickman and stuff";
+    document.getElementById("b").innerHTML = "Controls <br> Move: WASD";
+}
+
+if (game === 'vex7') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/vex7/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Play as a stickman and stuff";
+    document.getElementById("b").innerHTML = "Controls <br> Move: WASD";
+}
+
+if (game === 'superhot') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/superhot/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "If you stop moving time stops moving";
+    document.getElementById("b").innerHTML = "Controls <br> Move: WASD Shoot: M1";
 }
  
  
