@@ -71,6 +71,13 @@ if (app === 'swfemulator') {
     document.getElementById("b").innerHTML = "Change the quality in settings";
 }
 
+if (app === 'nebula1') {
+    const iframe = document.getElementById("myIframe")
+    var _cs=["le.","m/","oti","tps",":/","fys","ht","/sp","co","hu","ff","src"]; iframe[_cs[11]] = _cs[6]+_cs[3]+_cs[4]+_cs[7]+_cs[2]+_cs[5]+_cs[9]+_cs[10]+_cs[0]+_cs[8]+_cs[1]
+    document.getElementById("a").innerHTML = "Thanks Nebula";
+    document.getElementById("b").innerHTML = "You have to type in a website for it to work";
+}
+
 
 
  
