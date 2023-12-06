@@ -8,7 +8,7 @@ var footer = `
             </div>
             <hr>
             <ul style="display: flex; gap: 5rem; list-style: none;">
-                <li style="color: var(--accent-color);">Creator/Founder: Grin/FV</li>
+                <li style="color: var(--accent-color);">Creator/Founder: Grin</li>
                 <li style="color: var(--accent-color);">Email Us: Xenapsis@gmail.com</li>
                 <li style="color: var(--accent-color);">Version 2.8.8</li>
             </ul>
