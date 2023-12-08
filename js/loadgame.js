@@ -530,6 +530,14 @@ if (game === 'superhot') {
     document.getElementById("a").innerHTML = "If you stop moving time stops moving";
     document.getElementById("b").innerHTML = "Controls <br> Move: WASD Shoot: M1";
 }
+
+if (game === 'tag') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/tag/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "What do you think this game is about?";
+    document.getElementById("b").innerHTML = "Controls <br> P1: WASD <br> P2: Arrowkeys <br> P3: TFGH <br> P4: IJKL <br> Select up and down: W/S <br> Select: Enter <br> Change value: A/d <br> if this didnt help press random keys";
+}
  
  
  
