@@ -538,6 +538,46 @@ if (game === 'tag') {
     document.getElementById("a").innerHTML = "What do you think this game is about?";
     document.getElementById("b").innerHTML = "Controls <br> P1: WASD <br> P2: Arrowkeys <br> P3: TFGH <br> P4: IJKL <br> Select up and down: W/S <br> Select: Enter <br> Change value: A/d <br> if this didnt help press random keys";
 }
+
+if (game === 'henery1') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/henery1/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "The first henery stickman game";
+    document.getElementById("b").innerHTML = "Controls <br> Point n click";
+}
+
+if (game === 'henery2') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/henery2/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "The second henery stickman game";
+    document.getElementById("b").innerHTML = "Controls <br> Point n click";
+}
+
+if (game === 'henery3') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/henery3/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "The 3rd henery stickman game";
+    document.getElementById("b").innerHTML = "Controls <br> Point n click";
+}
+
+if (game === 'henery4') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/henery4/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "The 4th henery stickman game";
+    document.getElementById("b").innerHTML = "Controls <br> Point n click";
+}
+
+if (game === 'henery5') {
+    const iframe = document.getElementById("myIframe")
+    iframe.src = "games/henery5/index.html"
+    iframe.style ="background-color: white;"
+    document.getElementById("a").innerHTML = "Too many games bwomp";
+    document.getElementById("b").innerHTML = "Controls <br> Point n click";
+}
  
  
  
